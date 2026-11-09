@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-cd /d "C:\Users\33834\ScreenTimeTracker"
+cd /d "%~dp0"
 
 echo 正在启动屏幕使用时间追踪...
 echo.

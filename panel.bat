@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-cd /d "C:\Users\33834\ScreenTimeTracker"
+cd /d "%~dp0"
 
 echo 正在打开屏幕使用时间面板...
 start "" pythonw.exe server.py
